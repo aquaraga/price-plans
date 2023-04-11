@@ -1,23 +1,20 @@
 {
   "pricePlans": [
     {
-      "id": "price-plan-0",
       "energySupplier": "Dr Evil's Dark Energy",
-      "planName": "Most Evil Plan",
+      "planName": "price-plan-0",
       "unitRate": 10,
       "peakTimeMultipliers": []
     },
     {
-      "id": "price-plan-1",
       "energySupplier": "The Green Eco",
-      "planName": "Renewables Plan",
+      "planName": "price-plan-1",
       "unitRate": 2,
       "peakTimeMultipliers": []
     },
     {
-      "id": "price-plan-2",
       "energySupplier": "Power for Everyone",
-      "planName": "Standard Plan",
+      "planName": "price-plan-2",
       "unitRate": 1,
       "peakTimeMultipliers": []
     }
