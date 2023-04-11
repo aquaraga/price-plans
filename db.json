@@ -1,36 +1,25 @@
 {
   "pricePlans": [
     {
-      "id": 1,
-      "energySupplier": "SupplierA",
-      "planName": "PlanA",
-      "unitRate": 0.15,
-      "peakTimeMultipliers": [
-        {
-          "dayOfWeek": "MONDAY",
-          "multiplier": 1.5
-        },
-        {
-          "dayOfWeek": "FRIDAY",
-          "multiplier": 1.2
-        }
-      ]
+      "id": "price-plan-0",
+      "energySupplier": "Dr Evil's Dark Energy",
+      "planName": "Most Evil Plan",
+      "unitRate": 10,
+      "peakTimeMultipliers": []
     },
     {
-      "id": 2,
-      "energySupplier": "SupplierB",
-      "planName": "PlanB",
-      "unitRate": 0.12,
-      "peakTimeMultipliers": [
-        {
-          "dayOfWeek": "WEDNESDAY",
-          "multiplier": 1.8
-        },
-        {
-          "dayOfWeek": "SATURDAY",
-          "multiplier": 1.3
-        }
-      ]
+      "id": "price-plan-1",
+      "energySupplier": "The Green Eco",
+      "planName": "Renewables Plan",
+      "unitRate": 2,
+      "peakTimeMultipliers": []
+    },
+    {
+      "id": "price-plan-2",
+      "energySupplier": "Power for Everyone",
+      "planName": "Standard Plan",
+      "unitRate": 1,
+      "peakTimeMultipliers": []
     }
   ]
 }
