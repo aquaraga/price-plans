@@ -1,0 +1,36 @@
+{
+  "pricePlans": [
+    {
+      "id": 1,
+      "energySupplier": "SupplierA",
+      "planName": "PlanA",
+      "unitRate": 0.15,
+      "peakTimeMultipliers": [
+        {
+          "dayOfWeek": "MONDAY",
+          "multiplier": 1.5
+        },
+        {
+          "dayOfWeek": "FRIDAY",
+          "multiplier": 1.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "energySupplier": "SupplierB",
+      "planName": "PlanB",
+      "unitRate": 0.12,
+      "peakTimeMultipliers": [
+        {
+          "dayOfWeek": "WEDNESDAY",
+          "multiplier": 1.8
+        },
+        {
+          "dayOfWeek": "SATURDAY",
+          "multiplier": 1.3
+        }
+      ]
+    }
+  ]
+}
